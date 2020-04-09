@@ -1,0 +1,57 @@
+.case {
+    width: 100%;
+    padding-top: 170px;
+    padding-bottom: 150px;
+    .title {
+        margin-bottom: 104px;
+    }
+    .container {
+        width: 80%;
+        max-width: 757px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        width: 233px;
+        &-img {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+
+            &-arrow {
+                width: 225px;
+                margin-bottom: 61%;
+            }
+        }
+        &-text {
+            text-align: center;
+            font-family: 'GUERRILLA Normal';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 65px;
+            color: $second-color;
+        }
+    }
+    &__line {
+        &-main {
+            width: 225px;
+        }
+    }
+    &__descr {
+        width: 750px;
+        display: block;
+        margin: 80px auto 0;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+        color: #000000;
+    }
+    .btn {
+        display: block;
+        margin: 90px auto 0;
+    }
+}

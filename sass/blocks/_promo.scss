@@ -1,0 +1,47 @@
+.promo {
+    background-color: $main-color;
+    width: 100%;
+    .container {
+        margin-left: calc(16.5% + 10px);
+        padding-top: 115px;
+        padding-bottom: 7.2%;
+        width: 83.5%;
+        background: url('../img/section1/bg_mobile.png') center center/cover no-repeat;
+        .wrapper {
+            margin-left: 10.87%;
+            margin-right: 25px;
+            max-width: 1609px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &-text {
+        width: 50%;
+        max-width: 585px;
+        &__title {
+            font-family: 'GUERRILLA Normal';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 75px;
+            line-height: 80px;
+            color: #FFFFFF;
+            margin-bottom: 67px;
+        }
+        &__subtitle {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 35px;
+            line-height: 43px;
+            color: #FFFFFF;
+        }
+    }
+    &__img {
+        width: 42.84%;
+        max-width: 550px;
+        min-width: 280px;
+        img {
+            width: 100%;
+        }
+    }
+}

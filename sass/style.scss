@@ -1,0 +1,18 @@
+@import 'base/variables';
+@import 'blocks/navbar';
+@import 'blocks/promo';
+@import 'blocks/sentence';
+@import 'blocks/title';
+@import 'blocks/button';
+@import 'blocks/case';
+@import 'blocks/footer';
+
+body {
+    background-color: $main-color;
+}
+
+.nav-mobile, .hidden {
+    display: none;
+}
+
+@import 'base/media.scss'

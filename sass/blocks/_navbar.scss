@@ -1,0 +1,40 @@
+.navbar {
+    width: 16.5%;
+    max-width: 314px;
+    min-width: 130px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0 20px 20px;
+    background: $main-color;
+    z-index: 10;
+    .container {
+        width: 65%;
+    }
+    &__img {
+        width: 100%;
+        display: block;
+        margin-bottom: 40px;
+        img {
+            width: 100%;
+        }
+    }
+    &__contacts {
+
+        &__contacts-descr {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            color: #000000;
+        }
+        &-addr {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            color: #000000;
+        }
+    }
+}
